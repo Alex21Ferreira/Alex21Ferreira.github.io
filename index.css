@@ -93,15 +93,3 @@ margin-right: 15px;
     font-size: large;
     text-align: center;
 }
-
-@media screen and (max-width: 480px){
-    #encabezado{
-        height: auto;
-    }
-    #contenido{
-        width: auto;
-    }
-    #barra_lateral{
-        display:none;
-    }
-}
