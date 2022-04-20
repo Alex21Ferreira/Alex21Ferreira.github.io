@@ -93,3 +93,7 @@ margin-right: 15px;
     font-size: large;
     text-align: center;
 }
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .left, .right {
+      width: 100%;}}
