@@ -94,7 +94,14 @@ margin-right: 15px;
     text-align: center;
 }
 
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .left, .right {
-      width: 100%;}}
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
